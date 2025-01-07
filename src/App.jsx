@@ -8,7 +8,7 @@ import MyJobs from "./pages/MyJobs";
 import SavedJobs from "./pages/SavedJobs";
 import PostJob from "./pages/PostJob";
 import { ThemeProvider } from "./components/ui/theme-provider";
-
+import './App.css'
 function App() {
     const router = createBrowserRouter([
         {
