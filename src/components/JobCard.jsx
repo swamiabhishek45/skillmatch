@@ -18,7 +18,7 @@ const JobCard = ({ job }) => {
             .join(" "); // Join with space
     };
     return (
-        <div className="flex flex-col md:flex-row hover:bg-gray-800 justify-between text-white items-center bg-[#0e1728] shadow-lg rounded-lg p-4 gap-4 relative">
+        <div className="flex flex-col md:flex-row hover:bg-gray-800 justify-between text-white items-center bg-[#020818] border shadow-lg rounded-lg p-4 gap-4 relative">
             {/* Bookmark Icon */}
             {/* <div className="absolute top-1 right-1 cursor-pointer">
                 <svg
@@ -102,14 +102,18 @@ const JobCard = ({ job }) => {
                     {/* <button className="px-4 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg hover:from-blue-400 hover:to-blue-600 shadow-md">
                         See More
                     </button> */}
-                    
-                {job.publication_date && (
-                    <p className="text-sm text-gray-400 ">
-                        Posted {formatDistanceToNow(new Date(job.publication_date), {
-                            addSuffix: true,
-                        })}
-                    </p>
-                )}
+
+                    {job.publication_date && (
+                        <p className="text-sm text-gray-400 ">
+                            Posted{" "}
+                            {formatDistanceToNow(
+                                new Date(job.publication_date),
+                                {
+                                    addSuffix: true,
+                                }
+                            )}
+                        </p>
+                    )}
                 </div>
             </div>
         </div>

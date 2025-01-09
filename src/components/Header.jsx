@@ -39,9 +39,9 @@ const Header = () => {
                         </span>
                     </div>
                     <p className="poppins md:text-md w-full text-center text-xs text-gray-400 sm:w-1/2 lg:text-lg">
-                        Whether you&apos;re looking for your next career move or
-                        you know a great opportunity for others, Job Junction is
-                        the place to be.
+                        remotely connects top talent with trusted tech
+                        companies, offering seamless access to fully remote and
+                        actively hiring opportunities.
                     </p>
                 </div>
 

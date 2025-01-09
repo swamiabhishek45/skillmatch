@@ -55,9 +55,9 @@ const RecentJobs = () => {
             </div>
             <div className="flex items-center justify-center">
                 <Link to="/jobs">
-                    <button className="inline-flex h-10 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-4 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                        Show more jobs{" "}
-                        <img src={RightIcon} width={22} className="ml-2 mt-1" />
+                    <button className="flex xshadow-[0_0_0_3px_#000000_inset] px-6 py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400">
+                        Show more jobs
+                        {/* <img src={RightIcon} width={22} className="ml-2 mt-1" /> */}
                     </button>
                 </Link>
             </div>
